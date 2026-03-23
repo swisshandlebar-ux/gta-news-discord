@@ -1,0 +1,15 @@
+name: GTA News
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run script
+        run: |
+          npm install node-fetch
+          node script.js
