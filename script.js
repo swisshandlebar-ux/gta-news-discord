@@ -1,6 +1,6 @@
 const fetch = require("node-fetch");
 
-const WEBHOOK_URL = "COLLE_TON_WEBHOOK_ICI";
+const WEBHOOK_URL = "https://discord.com/api/webhooks/1485670751645339899/ioeLXO7IDw8zRIdEgQH4HcNbQnUnKM3zU-JvQrfhFjB5s8hFHm-ktHOkpTzcxOSgYfmE";
 
 async function run() {
   const res = await fetch("https://www.rockstargames.com/newswire");
